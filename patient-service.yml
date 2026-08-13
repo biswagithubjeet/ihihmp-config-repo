@@ -5,7 +5,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/patient_db
     username: root
-    password: Tiku@12345
+    password: ${PATIENT_DB_PASSWORD}
 
   jpa:
     hibernate:
